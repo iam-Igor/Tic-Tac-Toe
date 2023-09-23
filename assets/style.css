@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+body {
+  font-family: "Permanent Marker", cursive;
+  background-color: #d2dbdc;
+}
+
+#game-container {
+  width: 246px;
+  height: 245px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.cells {
+  height: 80px;
+  width: 80px;
+  border: 0.5px solid white;
+  border-collapse: collapse;
+  background-color: #518abb;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+}
+
+h1 {
+  text-align: center;
+}
